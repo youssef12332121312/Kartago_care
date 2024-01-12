@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartago_care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="page2.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .background-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(bg.jpg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -1;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 8px;
+            padding: 0;
+            color: #fff;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ffffff;
+            margin: 0;
+            font-family: 'Fraunces', serif;
+        }
+
+        nav {
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: larger;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+            text-align: center;
+        }
+
+        nav a:hover {
+            color: #c0ad00;
+        }
+
+        .featured-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .logo img {
+            margin-right: 10px;
+            height: 80px;
+        }
+
+        .text {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .h2section2 {
+            text-transform: capitalize;
+            font-size: 40px;
+        }
+
+        .h1section2 {
+            font-family: 'Parisienne', cursive;
+            font-size: 40px;
+            line-height: 1.2;
+        }
+
+        .main-btn {
+            color: #000000;
+            background-color: #f5f5f5;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            display: inline-block;
+            padding: 10px 20px;
+            letter-spacing: 3px;
+            border-radius: 50px;
+            transition: 1s ease;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .main-btn:hover {
+            background-color: #c0ad00;
+            transform: scale(1.1);
+        }
+
+        .L {
+            margin-top: 20px;
+        }
+
+        .L a {
+            margin-right: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            color: #ff0000;
+            font-size: 2em;
+            font-weight: 800;
+            margin-bottom: 30px;
+        }
+
+        .content {
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            width: 100%;
+            box-shadow: 0 5px 25px rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 15px;
+            transition: 1s ease;
+            background-image: url(imgs/Red-Ford-Mustang-RTR-Wallpapers-52452\ \(1\).jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+
+        .PPP {
+            width: 100%;
+            box-shadow: 0 5px 25px rgb(255, 255, 255);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 15px;
+            transition: 1s ease;
+            background-image: url(imgs/Y.jpeg.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .PPP:hover {
+            transform: scale(1.1);
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .main-container {
+            border: 10px solid #E1CCC0;
+            margin: 20px;
+            background-color: #F8F4F0;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        h1,
+        img {
+            margin: 0;
+            border: 5px solid #D6A6A1;
+            border-radius: 10px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        img {
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .A h1 {
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-container"></div>
+    <header class="logo">
+        <img src="Capture d'écran 2024-01-12 151525.png" alt="Logo Image"><br>
+        <h1>sondos's web</h1>
+    </header>
+    <br>
+    <nav>
+        <a href="dd.html">Home</a>
+        <a href="https://www.instagram.com/karthago_care/">contact</a>
+        <a href="">location</a>
+    </nav>
+    <br><br><br> <br><br><br><br>
+    <section class="text">
+        <H2 class="h2section2">Ideal place to unwind</H2>
+        <H1 class="h1section2">make yourself better with Karthago_care</H1>
+        <br><br><br><br>
+        <a href="#SERVICES" class="main-btn" onclick="smoothScroll('SERVICES')">Before & After</a>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </section>
+    <section class="A">
+        <div class="main-container" id="SERVICES">
+            <h1 class="title">Sondos's art</h1>
+            <div class="container">
+                <h1>SSK Jamila👩🏻 Lip augmentation with <br>fillers 1 ml👄</h1>
+                <img src="Capture d'écran 2024-01-12 180450.png" alt="">
+            </div>
+
+            <br><br><br>
+
+            <div class="container">
+                <img src="Capture d'écran 2024-01-12 180430.png" alt="">
+                <h1>SSK Jamila👩🏻‍⚕️💉 This nice customer got a refill of 0.9 ml filler in her lips today 🤗 she was so happy 😍</h1>
+            </div>
+
+            <br><br><br>
+
+            <div class="container">
+                <h1>SSK Jamila 🪄 <br>Full soft lips performed at our <br>clinic Sollentuna with 1 ml INFINI 💋💉👍🏻☺️</h1>
+                <img src="Capture d'écran 2024-01-12 180409.png" alt="">
+            </div>
+
+            <br><br><br>
+
+            <div class="container">
+                <img src="Capture d'écran 2024-01-12 180409.png" alt="">
+                <h1>A little volume makes a big difference 🤩 Only 0.7 ml fillers distributed in the upper and lower lip.
+                    <br>Before and immediately after treatment💛
+                    <br>Warm welcome to me in Sollentuna center☺️ Book an appointment via bookdirect and get a 20% discount!😊</h1>
+            </div>
+        </div>
+        <script>
+            function smoothScroll(target) {
+                var targetElement = document.getElementById(target);
+                window.scrollTo({
+                    top: targetElement.offsetTop - 50,
+                    behavior: 'smooth'
+                });
+            }
+        </script>
+    </section>
+</body>
+
+</html>
